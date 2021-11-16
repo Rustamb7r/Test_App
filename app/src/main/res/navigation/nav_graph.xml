@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.my_sample.framework.presentation.main.SplashFragment"
+        android:label="Tabs Fragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splash_to_movie_list"
+            app:destination="@id/movieListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/movieListFragment"
+        android:name="com.example.my_sample.framework.presentation.movie_list.MovieListFragment"
+        android:label="Movie List Fragment"
+        tools:layout="@layout/fragment_movie_list">
+
+    </fragment>
+
+</navigation>

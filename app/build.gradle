@@ -22,7 +22,7 @@ android {
 
         debug {
             buildConfigField 'String', "BASE_URL", '"https://api.nytimes.com"'
-            buildConfigField 'String', "API_KEY", '"nJiuvJz5NJZupDv7mmCiGxx17Tndi6JC"'
+            buildConfigField 'String', "API_KEY", '"mzK9oiuJeaaS7UpJNG2cAi9nz7sxIHNF"'
 
             minifyEnabled false
             testCoverageEnabled true
@@ -30,7 +30,7 @@ android {
 
         release {
             buildConfigField 'String', "BASE_URL", '"https://api.nytimes.com"'
-            buildConfigField 'String', "API_KEY", '"nJiuvJz5NJZupDv7mmCiGxx17Tndi6JC"'
+            buildConfigField 'String', "API_KEY", '"mzK9oiuJeaaS7UpJNG2cAi9nz7sxIHNF"'
 
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
